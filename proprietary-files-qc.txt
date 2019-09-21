@@ -608,11 +608,11 @@ vendor/bin/thermal-engine
 -vendor/lib64/libthermalclient.so
 vendor/lib64/libthermalioctl.so
 
-# Time services
--vendor/app/TimeService/TimeService.apk
-vendor/bin/time_daemon
--vendor/lib/libtime_genoff.so
--vendor/lib64/libtime_genoff.so
+# Time services - from raphael-user 10 QKQ1.190716.003 V10.4.6.0.QFKCNXM release-keys
+-vendor/app/TimeService/TimeService.apk|27f9b81621c446baa8c37581d9bfbca2fd67b496
+vendor/bin/time_daemon|2652ed04ebe55219b5da38db021d43b38e9227d3
+vendor/lib/libtime_genoff.so|cd8a5cc7ccc598e3c3308980c45acb804baa5986
+vendor/lib64/libtime_genoff.so|746db5267fde236de820fa7d887386f65aea7a8a
 
 # TUI
 lib/vendor.qti.hardware.tui_comm@1.0.so
